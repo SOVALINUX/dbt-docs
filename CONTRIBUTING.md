@@ -79,6 +79,8 @@ npm install
 npx webpack
 ```
 
+In case of errors related to the symlinks resolution you may manually copy `dbt-docs/styles/_site/ui` into `dbt-docs/src/assets` also removing the symlink files
+
 ### Running `dbt-docs`
 
 To run the dev server, first copy your `manifest.json` and `catalog.json` files to
